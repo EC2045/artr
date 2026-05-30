@@ -18,125 +18,7 @@
         rel="stylesheet">
     <!-- AOS Library for animations -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <style>
-        @font-face {
-            font-family: '2045alphabet';
-            src: url('https://ec2045.github.io/2045font/2045alphabet.otf') format('opentype');
-            font-display: swap;
-        }
-
-        :root {
-            --bg-color: #ffffff;
-            --accent-color: #000000;
-            --text-main: #1a1a1a;
-            --text-sub: #666666;
-        }
-
-        body {
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            font-family: '2045alphabet', 'Noto Sans JP', sans-serif;
-            scroll-behavior: smooth;
-            overflow-x: hidden;
-        }
-
-        .serif {
-            font-family: '2045alphabet', 'Shippori Mincho', serif;
-        }
-
-        .symbol-card {
-            background: #ffffff;
-            border: 1px solid #eeeeee;
-            transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
-        }
-
-        .symbol-card:hover {
-            border-color: #000000;
-            transform: translateY(-10px);
-            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.05);
-        }
-
-        .line-art {
-            position: relative;
-        }
-
-        .line-art::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 50px;
-            height: 1px;
-            background: #000;
-        }
-
-        .nav-link {
-            position: relative;
-            padding-bottom: 2px;
-        }
-
-        .nav-link::after {
-            content: '';
-            position: absolute;
-            width: 0;
-            height: 1px;
-            bottom: 0;
-            left: 0;
-            background-color: #000;
-            transition: width 0.3s ease;
-        }
-
-        .nav-link:hover::after {
-            width: 100%;
-        }
-
-        .archive-btn {
-            background: #0f172a;
-            color: #38bdf8;
-            border: 1px solid #1e293b;
-            padding: 12px 20px;
-            font-size: 10px;
-            font-weight: bold;
-            letter-spacing: 0.1em;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            display: inline-block;
-        }
-
-        .archive-btn:hover {
-            background: #1e293b;
-            box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);
-            transform: scale(1.02);
-        }
-
-        .history-line {
-            position: absolute;
-            left: 50%;
-            top: 0;
-            bottom: 0;
-            width: 1px;
-            background: #eee;
-            transform: translateX(-50%);
-        }
-
-        .form-container {
-            width: 100%;
-            max-width: 700px;
-            margin: 0 auto;
-            border: 1px solid #eee;
-            border-radius: 12px;
-            overflow: hidden;
-            background: #fdfdfd;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.02);
-        }
-
-        @media (max-width: 768px) {
-            .history-line {
-                left: 20px;
-                transform: none;
-            }
-        }
-    </style>
+  <link rel="stylesheet" href="src/style_3c7d6c67.css">
 </head>
 
 <body class="selection:bg-black selection:text-white">
@@ -403,14 +285,8 @@
 
     <!-- AOS Script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration: 1000,
-            once: true,
-            easing: 'ease-out-quart'
-        });
-    </script>
 
+  <script src="src/script_63fa1778.js"></script>
 </body>
 
 </html>
