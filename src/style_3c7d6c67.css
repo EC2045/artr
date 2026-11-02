@@ -14,13 +14,13 @@
 body {
     background-color: var(--bg-color);
     color: var(--text-main);
-    font-family: '2045alphabet', 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
 .serif {
-    font-family: '2045alphabet', 'Shippori Mincho', serif;
+    font-family: 'Shippori Mincho', serif;
 }
 
 .symbol-card {
